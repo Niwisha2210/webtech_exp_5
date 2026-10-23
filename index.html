@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validate.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <a href="#home" class="logo">🍓 YummyBites</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About</a>
+            <a href="#signup" class="nav-btn">Join Us ↗</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="eyebrow">♡ GOOD FOOD, GOOD MOOD</span>
+
+            <h1>
+                Cooking is an art.<br>
+                <span>Let's make it delicious.</span>
+            </h1>
+
+            <p>
+                Discover recipes that inspire you, bring people
+                together, and turn every meal into a beautiful memory.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#recipes" class="primary-btn">Explore Recipes →</a>
+                <a href="#signup" class="secondary-btn">Join Our Kitchen ♡</a>
+            </div>
+
+            <div class="hero-note">
+                <span>🥗 Fresh ideas</span>
+                <span>🍰 Sweet moments</span>
+                <span>👩‍🍳 Made with love</span>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="photo-frame">
+                <img
+                    src="C:\Users\USER\OneDrive\Desktop\web tech lab\exp 5\pasta.png"
+                    alt="Fresh and colourful food"
+                >
+            </div>
+            <div class="floating-card">
+                <span>✨</span>
+                <div>
+                    <strong>A pinch of love</strong>
+                    <p>In every recipe!</p>
+                </div>
+            </div>
+            <div class="round-stamp">COOK<br>♡<br>REPEAT</div>
+        </div>
+    </section>
+
+    <!-- Recipe Section -->
+    <section class="recipes section" id="recipes">
+        <div class="section-heading">
+            <span class="eyebrow">A LITTLE FOOD INSPIRATION</span>
+            <h2>Recipes you'll <span>fall for.</span></h2>
+            <p>From comforting classics to fresh favourites.</p>
+        </div>
+
+        <div class="recipe-grid">
+
+            <article class="recipe-card">
+                <div class="recipe-image">
+                    <img
+                        src="C:\Users\USER\OneDrive\Desktop\web tech lab\exp 5\pizza.png"
+                        alt="Cheesy pizza"
+                    >
+                    <span class="category">SAVOURY</span>
+                </div>
+                <div class="recipe-info">
+                    <p class="recipe-label">🍅 ITALIAN FAVOURITE</p>
+                    <h3>Cheesy Garden Pizza</h3>
+                    <p>Crispy crust, melted cheese, and colourful toppings.</p>
+                    <a href="#signup">Discover more ↗</a>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image">
+                    <img
+                        src="C:\Users\USER\OneDrive\Desktop\web tech lab\exp 5\chocolate cake.png"
+                        alt="Chocolate cake"
+                    >
+                    <span class="category">DESSERT</span>
+                </div>
+                <div class="recipe-info">
+                    <p class="recipe-label">🍫 A SWEET LITTLE TREAT</p>
+                    <h3>Chocolate Dream Cake</h3>
+                    <p>Rich, soft, chocolatey happiness in every bite.</p>
+                    <a href="#signup">Discover more ↗</a>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image">
+                    <img
+                        src="C:\Users\USER\OneDrive\Desktop\web tech lab\exp 5\salad-backup.jpg"
+                        alt="Fresh vegetable salad"
+                    >
+                    <span class="category">HEALTHY</span>
+                </div>
+                <div class="recipe-info">
+                    <p class="recipe-label">🥑 FRESH & DELIGHTFUL</p>
+                    <h3>Rainbow Garden Salad</h3>
+                    <p>A refreshing bowl full of colour and goodness.</p>
+                    <a href="#signup">Discover more ↗</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- About Banner -->
+    <section class="about-banner" id="about">
+        <div>
+            <span class="eyebrow">MORE THAN JUST FOOD</span>
+            <h2>Every recipe tells<br>a delicious story. ♡</h2>
+        </div>
+        <p>
+            Whether you are a beginner or a kitchen expert,
+            YummyBites is your little corner of the internet
+            to explore flavours and share your love for cooking.
+        </p>
+    </section>
+
+    <!-- Signup Section -->
+    <section class="signup-section" id="signup">
+
+        <div class="signup-content">
+            <span class="eyebrow">YOUR FOOD JOURNEY STARTS HERE</span>
+            <h2>Come hungry.<br><span>Leave inspired.</span></h2>
+
+            <p>
+                Become part of our food-loving community and
+                find your next favourite dish.
+            </p>
+
+            <div class="signup-benefit">
+                <span>✦</span>
+                <div>
+                    <strong>Discover new flavours</strong>
+                    <p>Find exciting recipes to try at home.</p>
+                </div>
+            </div>
+
+            <div class="signup-benefit">
+                <span>♡</span>
+                <div>
+                    <strong>Make it your own</strong>
+                    <p>Share your favourite recipe ideas.</p>
+                </div>
+            </div>
+
+            <div class="signup-benefit">
+                <span>✿</span>
+                <div>
+                    <strong>Cook with happiness</strong>
+                    <p>Bring a little joy to every meal.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-card">
+            <div class="form-icon">🍓</div>
+            <h2>Let's get cooking!</h2>
+            <p class="form-subtitle">Create your YummyBites account.</p>
+
+            <form id="signupForm" novalidate>
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="e.g. Ravi Kumar"
+                    autocomplete="name"
+                >
+                <span class="error" id="nameError"></span>
+
+                <label for="email">Email Address</label>
+                <input
+                    type="text"
+                    id="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                >
+                <span class="error" id="emailError"></span>
+
+                <label for="recipe">Your Favourite Recipe</label>
+                <input
+                    type="text"
+                    id="recipe"
+                    placeholder="e.g. Chocolate Cake"
+                >
+                <span class="error" id="recipeError"></span>
+
+                <label for="password">Create Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="At least 8 characters"
+                    autocomplete="new-password"
+                >
+                <span class="error" id="passError"></span>
+
+                <button type="submit" class="submit-btn">
+                    Join YummyBites ♡
+                </button>
+
+                <p id="successMessage" role="status"></p>
+
+                <p class="privacy-note">
+                    Made with ♡ for food lovers everywhere.
+                </p>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">🍓 YummyBites</a>
+        <p>Good food. Happy hearts. Beautiful memories.</p>
+        <p class="copyright">© 2026 YummyBites | Cook with love ♡</p>
+    </footer>
+
+</body>
+</html>
